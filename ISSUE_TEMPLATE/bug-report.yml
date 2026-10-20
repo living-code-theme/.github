@@ -1,0 +1,60 @@
+name: Report a problem
+description: Wrong colors, unreadable text, or an installation that does not work in this app.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping. This form is for this repository's app. Problems with the palette in every app belong in [core](https://github.com/living-code-theme/core/issues/new/choose).
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: What you see, and where (which file type, panel or command).
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: false
+  - type: dropdown
+    id: flavor
+    attributes:
+      label: Flavor
+      options:
+        - Night
+        - Frost
+        - Paper
+        - Signal
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      placeholder: "e.g. kitty 0.39.1, VS Code 1.99"
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: "e.g. macOS 15, Fedora 42, Windows 11"
+    validations:
+      required: false
+  - type: input
+    id: install
+    attributes:
+      label: How did you install the theme?
+      placeholder: "e.g. marketplace, plugin manager, the README's download command"
+    validations:
+      required: false
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: A real screenshot of the app makes color problems much faster to fix. Drag the image here.
+    validations:
+      required: false

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Request a new port
+    url: https://github.com/living-code-theme/core/issues/new?template=port-request.yml
+    about: Ask for Living Code in an app that does not have a port yet.
+  - name: Palette or color feedback
+    url: https://github.com/living-code-theme/core/issues/new?template=color-feedback.yml
+    about: A color or contrast problem that affects every app, not just this one.
