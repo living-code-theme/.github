@@ -1,0 +1,98 @@
+<div align="center">
+
+<a href="https://living-code.dev"><img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/brand/github-avatar.png" width="112" height="112" alt="Living Code [lc] mark"></a>
+
+# Living Code
+
+**Calm slate. Living color.**<br>A color scheme where the background stays quiet and the code comes alive.<br>For editors, terminals, browsers and the web.
+
+<img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/00a692.svg" width="14" height="14" alt="teal #00a692"> <img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/52d7c1.svg" width="14" height="14" alt="mint #52d7c1"> <img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/9ae0dd.svg" width="14" height="14" alt="aqua #9ae0dd"> <img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/80b6d3.svg" width="14" height="14" alt="steel #80b6d3"> <img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/8acb83.svg" width="14" height="14" alt="moss #8acb83"> <img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/f0be6d.svg" width="14" height="14" alt="amber #f0be6d"> <img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/e18c5f.svg" width="14" height="14" alt="copper #e18c5f"> <img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/e96560.svg" width="14" height="14" alt="flare #e96560"> <img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/bf91cd.svg" width="14" height="14" alt="orchid #bf91cd"> <img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/ddaec3.svg" width="14" height="14" alt="rose #ddaec3">
+
+<a href="https://living-code.dev/ports/"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fliving-code-theme%2Flanding%2Fmain%2Fdata%2Fports.json&amp;query=%24.ports.length&amp;style=for-the-badge&amp;labelColor=2d3438&amp;color=9ae0dd&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjIgMTcgNTguNSAzMCI%2BPGcgZmlsbD0iIzAwYTY5MiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEuNzg3NzA5IDQzLjI2MjU3KSBzY2FsZSgwLjAzMTI4NSAtMC4wMzEyODUpIj48cGF0aCB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDApIiBkPSJNMTg1IC0xMTBWODMwSDQ2NVY3MTVIMzEwVjVINDY1Vi0xMTBaIi8%2BPHBhdGggdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTIwIDApIiBkPSJNMzg5IDBRMzA3IDAgMjU3LjUgNDlRMjA4IDk4IDIwOCAxNzhWNjE3SDI3VjczMEgzMzNWMTgxUTMzMyAxNTAgMzUwLjUgMTMxLjVRMzY4IDExMyAzOTggMTEzSDU1OVYwWiIvPjxwYXRoIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEwNDAgMCkiIGQ9Ik0zMDkgLTEwUTIzOCAtMTAgMTg1LjUgMTYuNVExMzMgNDMgMTA0IDkxLjVRNzUgMTQwIDc1IDIwNlYzNDRRNzUgNDEwIDEwNCA0NTguNVExMzMgNTA3IDE4NS41IDUzMy41UTIzOCA1NjAgMzA5IDU2MFE0MTIgNTYwIDQ3NC41IDUwNi41UTUzNyA0NTMgNTQwIDM2MUg0MTdRNDE0IDQwNCAzODQuNSA0MjcuNVEzNTUgNDUxIDMwOSA0NTFRMjU4IDQ1MSAyMjkgNDIzLjVRMjAwIDM5NiAyMDAgMzQ1VjIwNlEyMDAgMTU1IDIyOSAxMjdRMjU4IDk5IDMwOSA5OVEzNTYgOTkgMzg1IDEyMi41UTQxNCAxNDYgNDE3IDE4OUg1NDBRNTM3IDk3IDQ3NC41IDQzLjVRNDEyIC0xMCAzMDkgLTEwWiIvPjxwYXRoIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE1NjAgMCkiIGQ9Ik0xMzUgLTExMFY1SDI5MFY3MTVIMTM1VjgzMEg0MTVWLTExMFoiLz48L2c%2BPC9zdmc%2B&amp;label=ports" alt="Living Code ports"></a>
+<a href="https://github.com/orgs/living-code-theme/repositories?sort=stargazers"><img src="https://img.shields.io/github/stars/living-code-theme?style=for-the-badge&amp;labelColor=2d3438&amp;color=f0be6d&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2YwYmU2ZCIgZD0iTTEyIDJsMy4wOSA2LjI2TDIyIDkuMjdsLTUgNC44NyAxLjE4IDYuODhMMTIgMTcuNzdsLTYuMTggMy4yNUw3IDE0LjE0IDIgOS4yN2w2LjkxLTEuMDF6Ii8%2BPC9zdmc%2B" alt="GitHub stars"></a>
+<a href="https://github.com/living-code-theme/core#choose-a-flavor"><img src="https://img.shields.io/badge/flavors-4-abe2a4?style=for-the-badge&amp;labelColor=2d3438&amp;color=abe2a4&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0iI2FiZTJhNCI%2BPHJlY3QgeD0iMyIgeT0iMyIgd2lkdGg9IjgiIGhlaWdodD0iOCIgcng9IjIiLz48cmVjdCB4PSIxMyIgeT0iMyIgd2lkdGg9IjgiIGhlaWdodD0iOCIgcng9IjIiIGZpbGwtb3BhY2l0eT0iLjc1Ii8%2BPHJlY3QgeD0iMyIgeT0iMTMiIHdpZHRoPSI4IiBoZWlnaHQ9IjgiIHJ4PSIyIiBmaWxsLW9wYWNpdHk9Ii41Ii8%2BPHJlY3QgeD0iMTMiIHk9IjEzIiB3aWR0aD0iOCIgaGVpZ2h0PSI4IiByeD0iMiIgZmlsbC1vcGFjaXR5PSIuMyIvPjwvZz48L3N2Zz4%3D" alt="4 flavors"></a>
+<a href="https://github.com/living-code-theme/core/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-a1cfe8?style=for-the-badge&amp;labelColor=2d3438&amp;color=a1cfe8&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYTFjZmU4IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPHBhdGggZD0iTTEyIDN2MThNNyAyMWgxME01IDdoMTRNMTIgM2wtMSA0aDJ6Ii8%2BPHBhdGggZD0iTTUgN2wtMyA3YTMuMiAzLjIgMCAwIDAgNiAwek0xOSA3bC0zIDdhMy4yIDMuMiAwIDAgMCA2IDB6Ii8%2BPC9nPjwvc3ZnPg%3D%3D" alt="MIT license"></a>
+
+[Website](https://living-code.dev) · [All ports](https://living-code.dev/ports/) · [Palette](https://github.com/living-code-theme/core) · [Request a port](https://github.com/living-code-theme/core/issues/new?template=port-request.yml)
+
+</div>
+
+## Flavors
+
+Four flavors share one slate foundation and the same semantic roles, so a keyword, a string or an error looks the same in your editor, terminal and browser.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/living-code-theme/core#living-code-night"><img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/preview-night.png" alt="Living Code Night"></a><br>
+<img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/05080b.svg" width="14" height="14" alt="#05080b"> <img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/00a692.svg" width="14" height="14" alt="#00a692"> <strong>Night</strong><br><sub>The default. Dark slate, teal structure, green strings, amber warnings and copper numbers.</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/living-code-theme/core#living-code-frost"><img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/preview-frost.png" alt="Living Code Frost"></a><br>
+<img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/0a1016.svg" width="14" height="14" alt="#0a1016"> <img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/43a997.svg" width="14" height="14" alt="#43a997"> <strong>Frost</strong><br><sub>A lifted, bluer slate with a third less chroma. Calmer for long sessions.</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/living-code-theme/core#living-code-paper"><img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/preview-paper.png" alt="Living Code Paper"></a><br>
+<img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/f4f7f9.svg" width="14" height="14" alt="#f4f7f9"> <img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/187d6e.svg" width="14" height="14" alt="#187d6e"> <strong>Paper</strong><br><sub>Daylight. Near-white slate, with every syntax color kept at WCAG AA contrast.</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/living-code-theme/core#living-code-signal"><img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/preview-signal.png" alt="Living Code Signal"></a><br>
+<img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/05080b.svg" width="14" height="14" alt="#05080b"> <img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/00a692.svg" width="14" height="14" alt="#00a692"> <strong>Signal</strong><br><sub>Night with a single accent. Teal marks keywords and focus; everything else stays slate.</sub>
+</td>
+</tr>
+</table>
+
+## Ports
+
+Every port lives in its own repository, with installation steps and real screenshots of the app. Browse them with previews at [living-code.dev/ports](https://living-code.dev/ports/).
+
+<table>
+<tr>
+<td valign="top"><b>Editors</b></td>
+<td>🦇&nbsp;<a href="https://github.com/living-code-theme/tmtheme">bat · delta (tmTheme)</a> &ensp; 🧬&nbsp;<a href="https://github.com/living-code-theme/helix">Helix</a> &ensp; 🧠&nbsp;<a href="https://github.com/living-code-theme/jetbrains">JetBrains IDEs</a> &ensp; 🔬&nbsp;<a href="https://github.com/living-code-theme/micro">micro</a> &ensp; 📝&nbsp;<a href="https://github.com/living-code-theme/nvim">Neovim</a> &ensp; 🌅&nbsp;<a href="https://github.com/living-code-theme/sublime">Sublime Text</a> &ensp; 💻&nbsp;<a href="https://github.com/living-code-theme/vscode">VS Code</a> &ensp; ⚡&nbsp;<a href="https://github.com/living-code-theme/zed">Zed</a></td>
+</tr>
+<tr>
+<td valign="top"><b>Terminals</b></td>
+<td>🚀&nbsp;<a href="https://github.com/living-code-theme/alacritty">Alacritty</a> &ensp; 🦶&nbsp;<a href="https://github.com/living-code-theme/foot">foot</a> &ensp; 👻&nbsp;<a href="https://github.com/living-code-theme/ghostty">Ghostty</a> &ensp; 🍎&nbsp;<a href="https://github.com/living-code-theme/iterm2">iTerm2</a> &ensp; 🐈&nbsp;<a href="https://github.com/living-code-theme/kitty">Kitty</a> &ensp; 🖥️&nbsp;<a href="https://github.com/living-code-theme/konsole">Konsole</a> &ensp; 🏞️&nbsp;<a href="https://github.com/living-code-theme/rio">Rio</a> &ensp; 🌀&nbsp;<a href="https://github.com/living-code-theme/warp">Warp</a> &ensp; 🧵&nbsp;<a href="https://github.com/living-code-theme/wezterm">WezTerm</a> &ensp; 🪟&nbsp;<a href="https://github.com/living-code-theme/windows-terminal">Windows Terminal</a></td>
+</tr>
+<tr>
+<td valign="top"><b>CLI &amp; TUI</b></td>
+<td>📊&nbsp;<a href="https://github.com/living-code-theme/bottom">bottom</a> &ensp; 📊&nbsp;<a href="https://github.com/living-code-theme/btop">btop</a> &ensp; 🔺&nbsp;<a href="https://github.com/living-code-theme/delta">delta</a> &ensp; 📁&nbsp;<a href="https://github.com/living-code-theme/eza">eza</a> &ensp; 🐟&nbsp;<a href="https://github.com/living-code-theme/fish">fish</a> &ensp; 🔎&nbsp;<a href="https://github.com/living-code-theme/fzf">fzf</a> &ensp; 🌳&nbsp;<a href="https://github.com/living-code-theme/gitui">GitUI</a> &ensp; 🪵&nbsp;<a href="https://github.com/living-code-theme/hunk">Hunk</a> &ensp; 🐕&nbsp;<a href="https://github.com/living-code-theme/k9s">k9s</a> &ensp; 🐳&nbsp;<a href="https://github.com/living-code-theme/lazydocker">Lazydocker</a> &ensp; 🌿&nbsp;<a href="https://github.com/living-code-theme/lazygit">lazygit</a> &ensp; 🐚&nbsp;<a href="https://github.com/living-code-theme/nushell">Nushell</a> &ensp; 📮&nbsp;<a href="https://github.com/living-code-theme/posting">Posting</a> &ensp; 🚀&nbsp;<a href="https://github.com/living-code-theme/starship">Starship</a> &ensp; 📺&nbsp;<a href="https://github.com/living-code-theme/television">Television</a> &ensp; 🧩&nbsp;<a href="https://github.com/living-code-theme/tmux">tmux</a> &ensp; 🦆&nbsp;<a href="https://github.com/living-code-theme/yazi">yazi</a> &ensp; 🧱&nbsp;<a href="https://github.com/living-code-theme/zellij">zellij</a></td>
+</tr>
+<tr>
+<td valign="top"><b>AI &amp; Agents</b></td>
+<td>🛠️&nbsp;<a href="https://github.com/living-code-theme/aider">Aider</a> &ensp; ✳️&nbsp;<a href="https://github.com/living-code-theme/claude-code">Claude Code</a> &ensp; 🤖&nbsp;<a href="https://github.com/living-code-theme/codex">Codex</a> &ensp; 💘&nbsp;<a href="https://github.com/living-code-theme/crush">Crush</a> &ensp; ♊&nbsp;<a href="https://github.com/living-code-theme/gemini-cli">Gemini CLI</a> &ensp; 🐑&nbsp;<a href="https://github.com/living-code-theme/herdr">Herdr</a> &ensp; 🔓&nbsp;<a href="https://github.com/living-code-theme/opencode">OpenCode</a> &ensp; 🥧&nbsp;<a href="https://github.com/living-code-theme/pi">Pi</a></td>
+</tr>
+<tr>
+<td valign="top"><b>Browsers</b></td>
+<td>🌐&nbsp;<a href="https://github.com/living-code-theme/chrome">Chrome, Brave and Chromium</a> &ensp; 🦊&nbsp;<a href="https://github.com/living-code-theme/firefox">Firefox</a></td>
+</tr>
+<tr>
+<td valign="top"><b>Apps</b></td>
+<td>💎&nbsp;<a href="https://github.com/living-code-theme/obsidian">Obsidian</a> &ensp; 💬&nbsp;<a href="https://github.com/living-code-theme/slack">Slack</a></td>
+</tr>
+<tr>
+<td valign="top"><b>Web &amp; code</b></td>
+<td>🎨&nbsp;<a href="https://github.com/living-code-theme/css">CSS variables</a> &ensp; 📜&nbsp;<a href="https://github.com/living-code-theme/expressive-code">Expressive Code</a> &ensp; 🧾&nbsp;<a href="https://github.com/living-code-theme/palette">JSON / JavaScript</a> &ensp; 🌬️&nbsp;<a href="https://github.com/living-code-theme/tailwind">Tailwind CSS v4</a></td>
+</tr>
+<tr>
+<td valign="top"><b>Theme systems</b></td>
+<td>🎛️&nbsp;<a href="https://github.com/living-code-theme/base16">base16 · Stylix · tinted-theming</a></td>
+</tr>
+</table>
+
+Missing your app? [Request a port](https://github.com/living-code-theme/core/issues/new?template=port-request.yml).
+
+## Design
+
+- **The ground stays calm.** Backgrounds, panels, selections and comments live on one slate ramp, so the eye goes to the code, not the chrome.
+- **Cool for structure, warm for data.** <img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/00a692.svg" width="14" height="14" alt="#00a692"> Teal, aqua and steel mark keywords, functions and types; <img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/8acb83.svg" width="14" height="14" alt="#8acb83"> moss, <img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/f0be6d.svg" width="14" height="14" alt="#f0be6d"> amber and <img src="https://raw.githubusercontent.com/living-code-theme/core/main/assets/swatches/e18c5f.svg" width="14" height="14" alt="#e18c5f"> copper mark strings, numbers and warnings.
+- **Built in OKLCH.** Every color is defined in OKLCH, and every text color is checked for WCAG AA contrast against its flavor's background.
+
+<div align="center">
+
+<sub>🦎 <b>One chameleon, many habitats.</b> MIT © Elliot Luque</sub>
+
+</div>
