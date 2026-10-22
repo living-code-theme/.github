@@ -1,0 +1,52 @@
+name: profile
+
+# Keeps profile/README.md in step with the ports the website publishes.
+# landing's sync-ports runs at 00:07 UTC; this runs after it has had time to finish.
+on:
+  schedule:
+    - cron: "37 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/profile.mjs
+      - .github/workflows/profile.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile
+  cancel-in-progress: false
+
+jobs:
+  render:
+    if: github.repository == 'living-code-theme/.github'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 24
+
+      - name: Render the profile from the published port snapshot
+        run: node scripts/profile.mjs
+
+      - name: Commit when the profile changed
+        run: |
+          if git diff --quiet -- profile/README.md; then
+            echo 'Profile is up to date.' >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add profile/README.md
+          git commit -m 'docs: sync organization profile with published ports'
+          git push origin HEAD:main
+          echo 'Profile updated.' >> "$GITHUB_STEP_SUMMARY"
