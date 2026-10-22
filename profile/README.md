@@ -64,7 +64,7 @@ Every port lives in its own repository, with installation steps and real screens
 </tr>
 <tr>
 <td valign="top"><b>AI &amp; Agents</b></td>
-<td>🛠️&nbsp;<a href="https://github.com/living-code-theme/aider">Aider</a> &ensp; ✳️&nbsp;<a href="https://github.com/living-code-theme/claude-code">Claude Code</a> &ensp; 🤖&nbsp;<a href="https://github.com/living-code-theme/codex">Codex</a> &ensp; 💘&nbsp;<a href="https://github.com/living-code-theme/crush">Crush</a> &ensp; ♊&nbsp;<a href="https://github.com/living-code-theme/gemini-cli">Gemini CLI</a> &ensp; 🐑&nbsp;<a href="https://github.com/living-code-theme/herdr">Herdr</a> &ensp; 🔓&nbsp;<a href="https://github.com/living-code-theme/opencode">OpenCode</a> &ensp; 🥧&nbsp;<a href="https://github.com/living-code-theme/pi">Pi</a></td>
+<td>🛠️&nbsp;<a href="https://github.com/living-code-theme/aider">Aider</a> &ensp; ✳️&nbsp;<a href="https://github.com/living-code-theme/claude-code">Claude Code</a> &ensp; 🤖&nbsp;<a href="https://github.com/living-code-theme/codex">Codex</a> &ensp; 💘&nbsp;<a href="https://github.com/living-code-theme/crush">Crush</a> &ensp; ♊&nbsp;<a href="https://github.com/living-code-theme/gemini-cli">Gemini CLI</a> &ensp; 🐑&nbsp;<a href="https://github.com/living-code-theme/herdr">Herdr</a> &ensp; 🔓&nbsp;<a href="https://github.com/living-code-theme/opencode">OpenCode</a> &ensp; π&nbsp;<a href="https://github.com/living-code-theme/pi">Pi</a></td>
 </tr>
 <tr>
 <td valign="top"><b>Browsers</b></td>
